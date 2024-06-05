@@ -41,6 +41,11 @@ public class Alumno {
 		this.edad = edad;
 	}
 
+	public Alumno(String nombre) {
+		super();
+		this.nombre = nombre;
+	}
+
 	public Alumno(String nombre, int edad) {
 		super();
 		this.nombre = nombre;
